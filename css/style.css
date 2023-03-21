@@ -277,6 +277,7 @@ button {
   position: relative;
   left: 0;
   float: right;
+  height: 3em;
 }
 .banner_section {
   width: 100%;
@@ -293,24 +294,27 @@ button {
   width: 100%;
   float: left;
   font-size: 60px;
-  color: #470005;
+  /* color: #470005; */
+  color: #203867;
   padding-top: 20px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .search_text {
   width: 100%;
   float: left;
   font-size: 16px;
-  color: #0e0e0e;
-  margin-left: 0px;
+  /* color: #0e0e0e;
+  margin-left: 0px; */
+  color: #203867;
+  font-weight: 400;
 }
 #my_slider a.carousel-control-prev {
   position: absolute;
   left: 616px;
   top: 112%;
-  background-color: #470005;
+  background-color: #203867;
 }
 #my_slider .carousel-control-prev,
 #my_slider .carousel-control-next {
@@ -327,7 +331,7 @@ button {
 #my_slider .carousel-control-next:hover,
 #my_slider .carousel-control-prev:focus,
 #my_slider .carousel-control-next:focus {
-  background: #470005;
+  background: #203867;
   color: #fff;
 }
 #my_slider a.carousel-control-next {
@@ -348,14 +352,14 @@ button {
   float: left;
   font-size: 16px;
   color: #fffdfd;
-  background-color: #470005;
+  background-color: #203867;
   text-align: center;
   padding: 10px 0px;
   border-radius: 40px;
 }
 .read_more_bt a:hover {
-  color: #fffdfd;
-  background-color: #470005;
+  background-color: #fffdfd;
+  color: #203869;
 }
 
 .contact_bt {
