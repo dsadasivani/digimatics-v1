@@ -277,6 +277,7 @@ button {
   position: relative;
   left: 0;
   float: right;
+  height: 3em;
 }
 .banner_section {
   width: 100%;
@@ -293,24 +294,27 @@ button {
   width: 100%;
   float: left;
   font-size: 60px;
-  color: #470005;
+  /* color: #470005; */
+  color: #203867;
   padding-top: 20px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .search_text {
   width: 100%;
   float: left;
   font-size: 16px;
-  color: #0e0e0e;
-  margin-left: 0px;
+  /* color: #0e0e0e;
+  margin-left: 0px; */
+  color: #203867;
+  font-weight: 400;
 }
 #my_slider a.carousel-control-prev {
   position: absolute;
   left: 616px;
   top: 112%;
-  background-color: #470005;
+  background-color: #203867;
 }
 #my_slider .carousel-control-prev,
 #my_slider .carousel-control-next {
@@ -327,7 +331,7 @@ button {
 #my_slider .carousel-control-next:hover,
 #my_slider .carousel-control-prev:focus,
 #my_slider .carousel-control-next:focus {
-  background: #470005;
+  background: #203867;
   color: #fff;
 }
 #my_slider a.carousel-control-next {
@@ -348,14 +352,14 @@ button {
   float: left;
   font-size: 16px;
   color: #fffdfd;
-  background-color: #470005;
+  background-color: #203867;
   text-align: center;
   padding: 10px 0px;
   border-radius: 40px;
 }
 .read_more_bt a:hover {
-  color: #fffdfd;
-  background-color: #470005;
+  background-color: #fffdfd;
+  color: #203869;
 }
 
 .contact_bt {
@@ -442,12 +446,12 @@ button {
 .box_main {
   width: 100%;
   float: left;
-  background-color: #f4f1c3;
+  background-color: #b7e6fa;
   height: auto;
   padding: 0px 20px 20px 20px;
 }
 .box_main:hover {
-  background-color: #470005;
+  background-color: #203869;
 }
 .box_main:hover .consultative_text {
   color: #ffffff;
@@ -509,7 +513,7 @@ button {
   background-image: url(../images/img-7.png);
 }
 .box_main.active {
-  background-color: #470005;
+  background-color: #203869;
   color: #ffffff;
 }
 .consultative_text.active {
@@ -577,7 +581,7 @@ button {
 
 .container_1:hover .image {
   opacity: 0.3;
-  background-color: rgb(71.5.9.5) !important;
+  background-color: #b7e6fa !important;
 }
 
 .container_1:hover .middle {
@@ -612,7 +616,7 @@ button {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: rgba(71, 0, 5, 0.8);
+  background-color: #203869;
   width: 100%;
   height: 100%;
 }
@@ -657,7 +661,7 @@ button {
   font-size: 16px;
   color: #ffffff;
   text-align: center;
-  background-color: #500d12;
+  background-color: #203869;
   border-radius: 40px;
   padding: 10px 0px;
   margin-top: 40px;
@@ -715,13 +719,13 @@ button {
 }
 
 .carousel-indicators .active {
-  background-color: #d1b75e;
+  background-color: #b7e6fa;
 }
 .carousel-indicators li {
   width: 40px;
   height: 10px;
   border-radius: 20px;
-  background-color: #500d12;
+  background-color: #203869;
 }
 .carousel-indicators {
   bottom: -120px;
@@ -798,8 +802,8 @@ textarea#comment::placeholder {
   width: 100%;
   float: left;
   font-size: 18px;
-  color: #ffffff;
-  background-color: #d1b75e;
+  color: #203869;
+  background-color: #b7e6fa;
   text-align: center;
   padding: 10px 0px;
   border-radius: 40px;
@@ -808,13 +812,13 @@ textarea#comment::placeholder {
 }
 .send_bt a:hover {
   color: #ffffff;
-  background-color: #420106;
+  background-color: #203869;
 }
 
 .footer_section {
   width: 100%;
   float: left;
-  background-color: #420106;
+  background-color: #203869;
   height: auto;
   padding-bottom: 45px;
 }
@@ -920,8 +924,8 @@ input.mail_bt::placeholder {
   width: 100%;
   float: left;
   font-size: 18px;
-  color: #ffffff;
-  background-color: #d1b75e;
+  color: #203869;
+  background-color: #b7e6fa;
   text-align: center;
   padding: 10px 0px;
   border-radius: 40px;
