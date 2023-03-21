@@ -477,21 +477,23 @@ button {
   width: 100%;
   float: left;
   background-image: url(../images/img-3.png);
-  height: 94px;
+  height: 121px;
   background-repeat: no-repeat;
-  top: -40px;
+  top: -60px;
   position: relative;
 }
 .box_main .image_3:hover {
   background-image: url(../images/img-6.png);
+  height: 121px;
+  top: -49px;
 }
 .image_4 {
   width: 100%;
   float: left;
   background-image: url(../images/img-3.png);
-  height: 94px;
+  height: 121px;
   background-repeat: no-repeat;
-  top: -40px;
+  top: -56px;
   position: relative;
 }
 .box_main .image_4:hover {
@@ -504,9 +506,9 @@ button {
   width: 100%;
   float: left;
   background-image: url(../images/img-5.png);
-  height: 94px;
+  height: 121px;
   background-repeat: no-repeat;
-  top: -40px;
+  top: -59px;
   position: relative;
 }
 .box_main .image_5:hover {
