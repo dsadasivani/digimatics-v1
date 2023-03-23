@@ -339,6 +339,9 @@
   .categories_text {
     font-size: 40px;
   }
+  .categories_text1 {
+    font-size: 40px;
+  }
   .dummy_text {
     font-size: 16px;
   }
@@ -520,6 +523,9 @@
     padding-top: 20px;
   }
   .categories_text {
+    font-size: 40px;
+  }
+  .categories_text1 {
     font-size: 40px;
   }
   .dummy_text {
@@ -714,6 +720,9 @@
     padding-top: 20px;
   }
   .categories_text {
+    font-size: 28px;
+  }
+  .categories_text1 {
     font-size: 28px;
   }
   .dummy_text {
