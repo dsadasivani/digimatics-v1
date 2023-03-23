@@ -738,6 +738,14 @@ button {
   float: left;
   padding-bottom: 90px;
 }
+.categories_text1 {
+  width: 100%;
+  float: left;
+  font-size: 1em;
+  color: #1b1b1b;
+  text-align: left;
+  font-weight: bold;
+}
 .categories_text {
   width: 100%;
   float: left;
@@ -751,7 +759,7 @@ button {
   float: left;
   font-size: 16px;
   color: #1b1b1b;
-  text-align: center;
+  text-align: left;
   margin-left: 0px;
 }
 .email_box {
