@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy Artifacts to S3
-        run: aws s3 sync ./ s3://www.digimatics.co.in
+        run: aws s3 sync ./ s3://www.digimatics.co.in --exclude ".*"
 
       - name: Invalidate CloudFront
         uses: chetan/invalidate-cloudfront-action@v2
